@@ -36,8 +36,8 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID')
-reqst_channel = environ.get('REQST_CHANNEL_ID')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001827834176')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001691451390')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
@@ -52,14 +52,14 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001784051585))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'uhdimax')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '<b>[ @ORGPrime ]</b> - <code>{file_name}</code> <b>\n\n⭐️ Size = {file_size}</b> \n\n<b><i> » ⏤͟͞𝗝⌡𝗼𝗶𝗻 »</i> [UHDiMAX](https://t.me/uhdimax)</b>')
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '<b>[ @ORGPrime ]</b> - <code>{file_name}</code> <b>\n\n⭐️ Size = {file_size}</b> \n\n<b><i> » ⏤͟͞𝗝⌡𝗼𝗶𝗻 »</i> [UHDiMAX](https://t.me/uhdimax)</b>')
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '<b>[ @ORGPrime ]</b> - <code>{file_name}</code> <b>\n\n⭐️ Size = {file_size}</b> \n\n<b><i> » ⏤͟͞𝗝⌡𝗼𝗶𝗻 »</i> [@UHDiMAX](https://t.me/uhdimax)</b>')
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '<b>[ @ORGPrime ]</b> - <code>{file_name}</code> <b>\n\n⭐️ Size = {file_size}</b> \n\n<b><i> » ⏤͟͞𝗝⌡𝗼𝗶𝗻 »</i> [@UHDiMAX](https://t.me/uhdimax)</b>')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [『@UHDiMAX』](t.me/uhdimax)')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
