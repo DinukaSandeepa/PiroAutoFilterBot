@@ -47,7 +47,7 @@ I 𝗐𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳�
 Special Thanks to @HDiMAX
 <b>DEV:</b>
 
-- <a href=https://t.me/uhdsupporta>
+- <a href=https://t.me/uhdsupport>『UHDSupport』</a>
 
 - Source - https://github.com/ritheshrkrm/PiroAutoFilterBot""" #please don't change repo link give credit :)
 
