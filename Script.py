@@ -84,7 +84,7 @@ Special Thanks to @UHDiMAX
 1. Make me the admin of your channel if it's private.
 2. make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+ I'll add all the files in that channel to my db.
 
 <b>Nᴏᴛᴇ: AᴜᴛᴏFɪʟᴛᴇʀ</b>
 1. Aᴅᴅ ᴛʜᴇ ʙᴏᴛ ᴀs ᴀᴅᴍɪɴ ᴏɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
@@ -146,8 +146,6 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs.
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> """
 
-<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @rai_info17</b>"""
-
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Total Members = <code>{}</code>
@@ -198,8 +196,7 @@ Request Again"""
     OWNER_INFO = """
 ○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/uhdsupport'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
 
-○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/uhdimaxmovies'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
-"""
+○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/uhdimaxmovies'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>"""
 
     NORSLTS = """
 #NoResults 
