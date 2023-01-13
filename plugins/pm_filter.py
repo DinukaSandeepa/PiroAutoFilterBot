@@ -898,7 +898,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 logger.info('HDCams File Found ! Successfully deleted from database.')
             deleted+=1
         deleted = str(deleted)
-        await k.edit_text(text=f"<b>𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝖣𝖾𝗅𝖾𝗍𝖾𝖽 {deleted} HDCᴀᴍ 𝖥𝗂𝗅𝖾𝗌.</b>")
+        await k.edit_text(text=f"<b>𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 𝖣𝖾𝗅𝖾𝗍𝖾𝖽 {deleted} HDCams 𝖥𝗂𝗅𝖾𝗌.</b>")
 
     elif query.data == "hdcams":
         k = await client.send_message(chat_id=query.message.chat.id, text="<b>𝖣𝖾𝗅𝖾𝗍𝗂𝗇𝗀....</b>")
@@ -1499,7 +1499,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention}\n\n📁 𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾𝗌 𝖠𝗋𝖾 𝖱𝖾𝖺𝖽𝗒\n\n<i>♨️ 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 @UHDiMAX</i></b>"
+        cap = f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention}\n\n📁 𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾𝗌 𝖠𝗋𝖾 𝖱𝖾𝖺𝖽𝗒\n\n<i>♨️ 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒</i> ⚡ @UHDiMAX ⚡</b>"
     if imdb and imdb.get('poster'):
         try:
             if message.chat.id == SUPPORT_CHAT_ID:
