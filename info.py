@@ -23,7 +23,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Bot images & videos
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/f6650a4eb987ab0900afb.jpg https://te.legra.ph/file/d321601bcbdb21962276b.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/0593a3103ba1b9a5855bf.jpg")
+NOR_IMG = environ.get("NOR_IMG", "")
 MELCOW_VID = environ.get("MELCOW_VID", "")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/2a888a370f479f4338f7c.jpg")
 
@@ -40,7 +40,7 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001827834176')
 reqst_channel = environ.get('REQST_CHANNEL_ID')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", "❌ <b>𝖨 𝖼𝗈𝗎𝗅𝖽𝗇'𝗍 𝖿𝗂𝗇𝖽 𝖺𝗇𝗒𝗍𝗁𝗂𝗇𝗀 𝗋𝖾𝗅𝖺𝗍𝖾𝖽 𝗍𝗈 𝗍𝗁𝖺𝗍</b>\n\n‼ <b><i>If You Want Your Request, Then Buy Our Premium ▶ @ORGPrime</i></b>"))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://orgprime:orgprime@cluster0.t89i6ib.mongodb.net/?retryWrites=true&w=majority")
