@@ -38,7 +38,8 @@ class script(object):
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
 ○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
 ○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : v1.0.1 [BeTa]
-○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/uhdimaxmovies'>Join Group</a>"""
+○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/uhdimaxmovies'>Join Group</a>
+"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 Special Thanks to @UHDiMAX
@@ -182,13 +183,10 @@ Request Again"""
 <u>𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀 𝗙𝗼𝗿𝗺𝗮𝘁𝘀</u>
 
 • Avatar 2009
-• 𝖣𝗁𝗈𝗈𝗆 3 𝖧𝗂𝗇𝖽𝗂
-• 𝖪𝗎𝗋𝗎𝗉 𝖪𝖺𝗇
 • 𝖣𝖺𝗋𝗄 S01
-• 𝖲𝗁𝖾 𝖧𝗎𝗅𝗄 720𝗉
 • 𝖥𝗋𝗂𝖾𝗇𝖽𝗌 S03 1080𝗉
 
-‼️𝗗𝗼𝗻𝘁 𝗮𝗱𝗱 𝘄𝗼𝗿𝗱𝘀 & 𝘀𝘆𝗺𝗯𝗼𝗹𝘀 𝗹𝗶𝗸𝗲 , . -  send link movie series 𝗲𝘁𝗰‼️"""
+‼️𝗗𝗼𝗻𝘁 𝗮𝗱𝗱 𝘄𝗼𝗿𝗱𝘀 & 𝘀𝘆𝗺𝗯𝗼𝗹𝘀 𝗹𝗶𝗸𝗲 , . -  send, link, movie, series 𝗲𝘁𝗰‼️"""
 
     OWNER_INFO = """<b>OWNER :-</b>
 
